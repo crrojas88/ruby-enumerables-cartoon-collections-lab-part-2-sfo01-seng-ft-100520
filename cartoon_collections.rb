@@ -23,9 +23,9 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.select do |calls|
-    
+    calls.length > 4
   end
-  
+  planeteer_calls
 end
 
 
