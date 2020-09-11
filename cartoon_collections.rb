@@ -31,7 +31,7 @@ def find_valid_calls(planeteer_calls)
   
   planeteer_calls.find do |calls|
     if valid_calls == calls
-      planeteer_calls
+      planeteer_calls[calls]
     else
       nil
     end
