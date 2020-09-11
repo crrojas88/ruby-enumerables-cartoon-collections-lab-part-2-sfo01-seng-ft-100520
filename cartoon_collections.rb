@@ -24,7 +24,7 @@ def long_planeteer_calls(planeteer_calls)
   
   planeteer_calls.select do |calls|
     if calls.length > 4
-      planeteer_calls
+      true
     else
       false
     end
