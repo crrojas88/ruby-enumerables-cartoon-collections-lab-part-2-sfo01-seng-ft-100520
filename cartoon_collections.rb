@@ -25,7 +25,6 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any do |calls|
     calls > 4
   end
-  planeteer_calls
 end
 
 
